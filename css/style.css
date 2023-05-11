@@ -1,0 +1,401 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+}
+
+
+/* --------------- 
+	bd flag design
+  ----------------- */
+
+.bangla {
+	width: 550px;
+	height: 350px;
+	background: rgb(0, 106, 78);
+	margin: 100px auto;
+	position: relative;
+	box-shadow: 1px 0px 8px rgb(88 88 88 / 80%);
+	transition: .4s;
+}
+
+.desh {
+	width: 150px;
+	height: 150px;
+	background: rgb(244, 42, 65);
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -48%);
+}
+
+.bangla:hover {
+	transform: scale(1.1);
+}
+
+
+/* --------------- 
+	japan flag design
+  ----------------- */
+ 
+
+.jap {
+	width: 550px;
+	height: 350px;
+	background: rgb(255, 255, 255);
+	margin: 100px auto;
+	position: relative;
+	box-shadow: 1px 0px 8px rgb(88 88 88 / 80%);
+	transition: .4s;
+}
+
+.an {
+	width: 150px;
+	height: 150px;
+	background: rgb(191, 13, 56);
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -48%);
+}
+
+.jap:hover {
+	transform: scale(1.1);
+}
+
+
+/* --------------- 
+	italy flag design
+     ----------------- */
+
+.white {
+	width: 550px;
+	height: 350px;
+	background: rgb(255, 255, 255);
+	margin: 100px auto;
+	position: relative;
+	box-shadow: 1px 0px 8px rgb(88 88 88 / 80%);
+	transition: .4s;
+}
+
+.white:hover {
+	transform: scale(1.1);
+}
+
+.green {
+	width: 180px;
+	height: 350px;
+	background: rgb(0, 147, 68);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.red {
+	width: 180px;
+	height: 350px;
+	background: rgb(207, 39, 52);
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+/* --------------- 
+	france flag design
+     ----------------- */
+
+.white {
+	width: 550px;
+	height: 350px;
+	background: rgb(255, 255, 255);
+	margin: 100px auto;
+	position: relative;
+	box-shadow: 1px 0px 8px rgb(88 88 88 / 80%);
+	transition: .4s;
+}
+
+.navy {
+	width: 180px;
+	height: 350px;
+	background: rgb(0, 33, 83);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.red {
+	width: 180px;
+	height: 350px;
+	background: rgb(207, 9, 33);
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+/* --------------- 
+	ireland flag design
+     ----------------- */
+
+.white {
+	width: 550px;
+	height: 350px;
+	background: rgb(255, 255, 255);
+	margin: 100px auto;
+	position: relative;
+	box-shadow: 1px 0px 8px rgb(88 88 88 / 80%);
+	transition: .4s;
+}
+
+.green {
+	width: 180px;
+	height: 350px;
+	background: rgb(14, 156, 98);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.orange {
+	width: 180px;
+	height: 350px;
+	background: rgb(255, 137, 60);
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+
+/* --------------- 
+	sweden flag design
+     ----------------- */
+
+.blue {
+	width: 550px;
+	height: 350px;
+	background: rgb(0, 106, 168);
+	margin: 100px auto;
+	position: relative;
+	box-shadow: 1px 0px 8px rgb(88 88 88 / 80%);
+	transition: .4s;
+}
+
+.blue:hover {
+	transform: scale(1.1);
+}
+
+.yellowy {
+    width: 80px;
+    height: 350px;
+    background: rgb(254, 205, 0);
+    position: absolute;
+    top: 0;
+    left: 135px;
+}
+
+.yellowx {
+    width: 550px;
+    height: 80px;
+    background: rgb(254, 205, 0);
+    position: absolute;
+    top: 135px;
+    left: 0;
+}
+
+
+/* -----------------
+ social icons 
+----------------- */
+
+
+.fb {
+	width: 150px;
+	position: fixed;
+	top: 18%;
+	right: -100px;
+	transition: .4s;
+}
+
+.fb:hover {
+	right: 2px;
+}
+
+.yt {
+	width: 150px;
+	position: fixed;
+	top: 24%;
+	right: -100px;
+	transition: .4s;
+}
+
+.yt:hover {
+	right: 2px;
+	transform: scale(1.1);
+}
+
+.tt {
+	width: 150px;
+	position: fixed;
+	top: 30%;
+	right: -100px;
+	transition: .4s;
+}
+
+.tt:hover {
+	right: 2px;
+}
+
+.pr {
+	width: 150px;
+	position: fixed;
+	top: 36%;
+	right: -100px;
+	transition: .4s;
+}
+
+.pr:hover {
+	right: 2px;
+}
+
+.wa {
+	width: 150px;
+	position: fixed;
+	top: 42%;
+	right: -100px;
+	transition: .4s;
+}
+
+.wa:hover {
+	right: 2px;
+}
+
+.in {
+	width: 150px;
+	position: fixed;
+	top: 48%;
+	right: -100px;
+	transition: .4s;
+}
+
+.in:hover {
+	right: 2px;
+}
+
+
+.rd {
+	width: 150px;
+	position: fixed;
+	top: 54%;
+	right: -100px;
+	transition: .4s;
+}
+
+.rd:hover {
+	right: 2px;
+}
+
+
+/* ------------
+	social icons
+-----------------*/
+
+
+.socials {
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 100px 0;
+	background: #e6e6e6;
+	margin: 80px 0;
+	transition: .4s;
+}
+
+.socials:hover {
+	background: #222;
+}
+
+.socials li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.socials li a {
+	display: block;
+	width: 95px;
+	height: 95px;
+	line-height: 100px;
+	font-size: 50px;
+	background: #222;
+	color: #fff;
+	margin: 0 10px;
+	border-radius: 50%;
+	transition: .4s;
+}
+
+.socials li a:hover {
+	background: #fff;
+	transform: rotate(360deg);
+}
+
+.fa-wordpress {
+	color: #009bcb;
+}
+
+.fa-shopify {
+	color: #95bf47;
+}
+
+.fa-react {
+	color: #5ed3f3;
+}
+
+.fa-node-js {
+	color: #659a60;
+}
+
+.fa-html5 {
+	color: #e96228;
+}
+
+.fa-css3 {
+	color: #2965f1;
+}
+
+.fa-github {
+	color: #802790;
+}
+
+.fa-bootstrap {
+	color: #8512f3;
+}
+
+.fa-php {
+	color: #8c95d1;
+}
+
+.fa-js {
+	color: #efd81d;
+}
+
+.fa-angular {
+	color: #d6002f;
+}
+
+.fa-sass {
+	color: #c76494;
+}
+
+.fa-laravel {
+	color: #f72c1f;
+}
+
+.fa-vuejs {
+	color: #3fb27f;
+}
